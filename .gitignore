@@ -1,0 +1,42 @@
+# Binários
+/bin/
+/build/
+/dist/
+
+# Executáveis
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Go modules
+/go.sum
+/go.mod
+/pkg/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Swagger docs gerados
+/docs/swagger/*
+
+# Node / frontend (se tiver)
+node_modules/
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
