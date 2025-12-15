@@ -19,8 +19,8 @@
 *.iml
 
 # Go modules
-/go.sum
-/go.mod
+# /go.sum
+# /go.mod
 /pkg/
 
 # Logs

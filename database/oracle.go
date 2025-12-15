@@ -10,7 +10,6 @@ import (
 )
 
 func OpenOracle() *sql.DB {
-	// Pega valores das variáveis de ambiente
 	user := os.Getenv("ORACLE_USER")
 	pass := os.Getenv("ORACLE_PASS")
 	host := os.Getenv("ORACLE_HOST")
